@@ -23,11 +23,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   text-align: left;
+  position: relative;
 }
 .col-2 {
   display: grid;
   border: 1px solid black;
-
   padding-top: 0;
   padding-left: 0px;
   padding-bottom: 300px;
@@ -44,4 +44,25 @@
 }
 
 .icon {
+  position: absolute;
+  bottom: 0;
+  right: 195px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.icon-notes {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.icon-thur {
+  position: absolute;
+  bottom: 0;
+  right: 380px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
